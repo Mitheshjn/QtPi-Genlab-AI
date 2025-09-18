@@ -18,7 +18,7 @@ tof = TOF(ob=True)
 
 components = None
 qtservice = None
-#components = [mpu, apds, motor, argb,buzzer, servoObj, us, tof]
+
 components = [ buzzer, motor, servoObj]
 qtservice = QtBLEService(components=components,uuid='0x1011')
 
