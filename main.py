@@ -8,8 +8,7 @@ from uqtpy.actuators.servo import Servo
 from uqtpy.sensors.ultrasonic import UltraSonic
 from uqtpy.sensors.tof import TOF
 
-#mpu = MPU6050(ob=True)
-#apds = APDS(ob=True)
+
 motor = Motor(ob=True)
 argb = ARGB(ob=True)
 buzzer = Buzzer(ob=True)
