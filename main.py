@@ -22,7 +22,3 @@ qtservice = None
 components = [ buzzer, motor, servoObj]
 qtservice = QtBLEService(components=components,uuid='0x1011')
 
-qtble = QtBLE(name='qtble', debug=True)
-qtble.add_services(services=[qtservice])
-hello
-qtble.start_advertising()
